@@ -321,3 +321,41 @@ footer p{
 #up:hover{
   background-color: #ccc;
 }
+
+@media (max-width: 630px) {
+  body {
+    background: lightblue;
+  }
+
+  #nav{
+    height: 120px;
+    min-width: 500px;
+    
+  }
+
+  #main{
+    display: flex;
+    flex-direction: column;
+
+  }
+  #main img{
+    margin: 50px;
+
+  }
+  #part{
+    width: 500px;
+    margin: 30px;
+  }
+
+  #infil input{
+    width: 200px;
+  }
+  #infil textarea{
+    width: 200px;
+  }
+  footer{
+    width: 500px;
+  }
+
+}
+
